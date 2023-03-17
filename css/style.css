@@ -180,3 +180,11 @@ img {
         padding: 30px 0;
     }
  }
+
+ /* Esercizio bonus */
+
+ @media screen and (min-width: 769px) and (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
+ }
