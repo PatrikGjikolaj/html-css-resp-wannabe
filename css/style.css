@@ -128,11 +128,13 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ /* LESSONS SECTION */
+
  @media screen and (min-width: 481px) and (max-width: 768px) {
     .container {
         width: 100%;
     }
-    .col {
+    .lessons .col {
         width: 50%;
     }
  }
@@ -144,7 +146,7 @@ img {
     .row{
         flex-wrap: wrap;
     }
-    .col{
+    .lessons .col{
         width: 100%;
     }
  }
